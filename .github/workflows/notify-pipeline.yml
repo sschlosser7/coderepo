@@ -17,5 +17,5 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
             -H "Content-Type: application/json" \
-            https://api.github.com/repos/<YOUR_ORG_OR_USERNAME>/pipelinerepo/dispatches \
+            https://api.github.com/repos/sschlosser7/pipelinerepo/dispatches \
             -d '{"event_type": "run-ci"}'
